@@ -263,7 +263,7 @@ function drawClock(place) {
     context.drawImage(img, coord.x, coord.y, size[0], size[1]);
 
     const logo = new Image();
-    logo.src = "./vasco.png";
+    logo.src = "./flamengo.png";
     logo.decode().then(() => {
       // Translate the center of the logo
       // to the center of the canvas.
